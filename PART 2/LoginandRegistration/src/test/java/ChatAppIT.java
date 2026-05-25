@@ -145,5 +145,33 @@ public class ChatAppIT {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of saveUserToJson method, of class ChatApp.
+     */
+    @Test
+    public void testSaveUserToJson() {
+        System.out.println("saveUserToJson");
+        User u = null;
+        boolean expResult = false;
+        boolean result = ChatApp.saveUserToJson(u);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of loadUserFromJson method, of class ChatApp.
+     */
+    @Test
+    public void testLoadUserFromJson() {
+        System.out.println("loadUserFromJson");
+        User expResult = null;
+        User result = ChatApp.loadUserFromJson();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }
+
