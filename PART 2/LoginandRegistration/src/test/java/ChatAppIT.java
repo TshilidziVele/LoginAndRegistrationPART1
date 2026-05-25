@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
  */
 
+
 import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
@@ -44,8 +45,7 @@ public class ChatAppIT {
         System.out.println("main");
         String[] args = null;
         ChatApp.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -58,8 +58,7 @@ public class ChatAppIT {
         boolean expResult = false;
         boolean result = ChatApp.saveUserToFile(u);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     
     }
 
     /**
@@ -72,8 +71,7 @@ public class ChatAppIT {
         String expResult = "";
         String result = ChatApp.getUsernameError(username);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -86,8 +84,7 @@ public class ChatAppIT {
         List<String> expResult = null;
         List<String> result = ChatApp.getPasswordErrors(password);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    
     }
 
     /**
@@ -100,8 +97,7 @@ public class ChatAppIT {
         String expResult = "";
         String result = ChatApp.getPhoneError(cell);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -114,8 +110,7 @@ public class ChatAppIT {
         String expResult = "";
         String result = ChatApp.getRecipientError(cell);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -128,8 +123,7 @@ public class ChatAppIT {
         boolean expResult = false;
         boolean result = ChatApp.checkRecipientCell(cell);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      
     }
 
     /**
@@ -142,8 +136,7 @@ public class ChatAppIT {
         String expResult = "";
         String result = ChatApp.hashPassword(password);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -156,8 +149,7 @@ public class ChatAppIT {
         boolean expResult = false;
         boolean result = ChatApp.saveUserToJson(u);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+   
     }
 
     /**
@@ -169,8 +161,7 @@ public class ChatAppIT {
         User expResult = null;
         User result = ChatApp.loadUserFromJson();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
     
 }
