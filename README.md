@@ -1,1 +1,1 @@
-# LoginAndRegistrationPART1
+# LoginAndRegistrationPART 1 and 2
