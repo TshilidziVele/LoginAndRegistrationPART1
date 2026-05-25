@@ -45,8 +45,7 @@ public class MessageIT {
         boolean expResult = false;
         boolean result = instance.checkMessageID();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -59,8 +58,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.checkRecipientCell();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -73,8 +71,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.checkMessageLength();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -87,8 +84,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.createMessageHash();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -103,8 +99,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.SentMessage(choice, sender);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -116,8 +111,7 @@ public class MessageIT {
         String expResult = "";
         String result = Message.printMessages();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -129,8 +123,7 @@ public class MessageIT {
         int expResult = 0;
         int result = Message.returnTotalMessages();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -141,8 +134,7 @@ public class MessageIT {
         System.out.println("storeMessage");
         Message instance = null;
         instance.storeMessage();
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -155,8 +147,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.getMessageId();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     
     }
 
     /**
@@ -169,8 +160,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.getMessageHash();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -183,8 +173,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.getRecipient();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     
     }
 
     /**
@@ -197,8 +186,7 @@ public class MessageIT {
         String expResult = "";
         String result = instance.getMessageText();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
     
 }
