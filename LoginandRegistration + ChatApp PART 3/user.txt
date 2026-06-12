@@ -1,0 +1,4 @@
+firstName=d
+username=VELE_
+hashedPassword=2eeeeb7872566c31ff7a59174ed7ea25c39f4e3694976f387208d93cabd930bc
+phone=+27682192670
